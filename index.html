@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ufuk | Portfolio & Journey</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#0b1220;
+    color:white;
+}
+
+/* HERO */
+header{
+    height:100vh;
+    background:url('https://images.unsplash.com/photo-1526772662000-3f88f10405ff?q=80&w=2000') center/cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.hero{
+    background:rgba(0,0,0,0.6);
+    padding:40px;
+    border-radius:20px;
+}
+
+.hero h1{
+    font-size:3rem;
+}
+
+.slogan{
+    font-size:1.2rem;
+    opacity:0.8;
+    margin-top:10px;
+}
+
+/* SECTIONS */
+section{
+    padding:70px 10%;
+}
+
+h2{
+    border-left:4px solid #38bdf8;
+    padding-left:10px;
+    margin-bottom:20px;
+}
+
+.card{
+    background:#111a2e;
+    padding:20px;
+    border-radius:15px;
+    margin-bottom:15px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.02);
+}
+
+/* GRID */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+/* TAGS */
+.tag{
+    display:inline-block;
+    padding:5px 10px;
+    background:#1e40af;
+    border-radius:8px;
+    margin:3px;
+    font-size:12px;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:30px;
+    background:#020617;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="hero">
+        <h1>🌍 Ufuk Yılmaz</h1>
+        <div class="slogan">Follow the Journey</div>
+        <p>Finance • IT • Travel • Life Story</p>
+    </div>
+</header>
+
+<section>
+    <h2>👤 About Me</h2>
+    <div class="card">
+        Finance graduate in Turkey, currently studying IT in Germany.  
+        I combine business knowledge with programming and real-world experience.
+    </div>
+</section>
+
+<section>
+    <h2>💼 Skills</h2>
+    <div class="card">
+        <span class="tag">Excel</span>
+        <span class="tag">Accounting</span>
+        <span class="tag">Python</span>
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Financial Analysis</span>
+    </div>
+</section>
+
+<section>
+    <h2>✈️ Travels</h2>
+
+    <div class="grid">
+        <div class="card">
+            <h3>🇩🇪 Germany</h3>
+            Bremen • Dortmund
+        </div>
+
+        <div class="card">
+            <h3>🇬🇧 UK</h3>
+            London
+        </div>
+
+        <div class="card">
+            <h3>🇮🇹 Italy</h3>
+            Salerno • Naples • Rome
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>📍 Life Timeline</h2>
+    <div class="card">
+        <b>2018</b> → Finance education<br>
+        <b>2022</b> → Move to Germany<br>
+        <b>2024</b> → IT studies in Bremen<br>
+        <b>2026</b> → Travel & Projects
+    </div>
+</section>
+
+<section>
+    <h2>📬 Contact</h2>
+    <div class="card">
+        Email: ufukyilmaz96@gmail.com<br>
+        Location: Germany 🇩🇪
+    </div>
+</section>
+
+<footer>
+    © 2026 Ufuk Yılmaz • Built with HTML
+</footer>
+
+</body>
+</html>
